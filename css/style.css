@@ -88,7 +88,7 @@ a {
 
 .social a {
     display: block;
-    background: url(../img-rel/sprite.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
     transition: all .5s ease;
 }
 
@@ -152,19 +152,19 @@ a.tw:hover {
 .tel:before {
     width: 16px;
     height: 17px;
-    background: url(../img-rel/sprite.png) no-repeat -53px 0;
+    background: url(../img/sprite.png) no-repeat -53px 0;
 }
 
 .mail:before {
     width: 17px;
     height: 13px;
-    background: url(../img-rel/sprite.png) no-repeat -71px 0;
+    background: url(../img/sprite.png) no-repeat -71px 0;
 }
 
 .skype:before {
     width: 18px;
     height: 19px;
-    background: url(../img-rel/sprite.png) no-repeat -90px 0;
+    background: url(../img/sprite.png) no-repeat -90px 0;
 }
 
 .messengers a {
@@ -202,7 +202,7 @@ a.tw:hover {
 .proposition {
     padding: 55px 0 35px;
     text-align: center;
-    background: #19140f url(../img-rel/background.jpg) center/cover;
+    background: #19140f url(../img/background.jpg) center/cover;
 }
 
 .proposition p {

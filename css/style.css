@@ -288,6 +288,9 @@ p.prop-text {
     position: relative;
     margin: 0;
 }
+.home a:hover ~ h3 {
+    text-decoration: underline;
+} 
 .home a {
     position: absolute;
     left: 0;
@@ -318,7 +321,9 @@ p.prop-text {
     position: sticky;
     top: 35px;
 }
-
+.sidebar {
+    min-width: 219px;
+}
 .aside-menu p {
     margin: 0;
     padding: 10px 15px;
@@ -342,14 +347,43 @@ p.prop-text {
     line-height: 24px;
     color: #25252c;
     background-color: #e4e4ec;
-    border-top: 1px solid #cdcddd;
+   
 }
-
+.aside-menu > ul > li + li > a{
+     border-top: 1px solid #cdcddd;
+}
+.aside-menu > ul > li:hover > a {
+    color: #ffffff;
+    background-color: #fd8300;
+}
+.aside-menu > ul > li > a:before{
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 18px ;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    transform: rotate(-45deg);
+}
+.aside-menu > ul > li:hover > a:before{
+    transform: rotate(45deg);
+    border-color: #fff;
+}
+.aside-menu li:hover .sub-menu{
+    display: block;
+}
+.sub-menu{
+    display: none;
+}
 .sub-menu a {
     padding-left: 30px;
     color: #666;
 }
-
+.sub-menu a:hover {
+    background-color: #cecedd
+}
 .footer {
     padding: 30px 0 20px;
     background-color: #ededf5;
